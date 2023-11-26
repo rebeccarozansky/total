@@ -1,0 +1,59 @@
+.operationClassUnselected {
+  width: 100px; /* Adjust the size of the circle as needed */
+  height: 100px; /* Adjust the size of the circle as needed */
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(130, 39, 0); /* Optional: Set a background color */
+  border-radius: 50%; /* Create a circle with 50% border radius */
+  text-align: center; /* Center the text horizontally and vertically */
+  line-height: 100px; /* Center the text vertically */
+  border-color:rgb(248, 248, 248);
+}
+
+.operationClassSelected {
+  width: 100px; /* Adjust the size of the circle as needed */
+  height: 100px; /* Adjust the size of the circle as needed */
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 111, 159); /* Optional: Set a background color */
+  border-radius: 50%; /* Create a circle with 50% border radius */
+  text-align: center; /* Center the text horizontally and vertically */
+  line-height: 100px; /* Center the text vertically */
+  border-color:rgb(248, 248, 248);
+}
+
+#add {
+  background-image: url('../svgs/addition-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  color: white;
+}
+
+#subtract {
+  background-image: url('../svgs/subtraction-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  color: white;
+}
+
+#multiply {
+  background-image: url('../svgs/multiply-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  color: white;
+}
+
+#divide {
+  background-image: url('../svgs/division-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  color: white;
+}

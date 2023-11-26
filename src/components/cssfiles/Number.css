@@ -1,0 +1,43 @@
+.circle {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    border: 3px solid #000;
+  }
+
+.item {
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.blankItem{
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+/*
+  .circle:hover {
+    background: 'red';
+  }
+  */
+
+  .numberCircle {
+    width: 100px; /* Adjust the size of the circle as needed */
+    height: 100px; /* Adjust the size of the circle as needed */
+    padding: 20px;
+    font-size: 35px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-weight: bold;
+    color: black;
+    background-color: #FFFBE3; /* Optional: Set a background color */
+    border-radius: 50%; /* Create a circle with 50% border radius */
+    text-align: center; /* Center the text horizontally and vertically */
+    line-height: 100px; /* Center the text vertically */
+    border-color:black;
+    border: 3px dashed black;
+  }

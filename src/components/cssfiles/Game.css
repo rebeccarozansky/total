@@ -1,0 +1,30 @@
+.container {
+	background-color: #fff;
+	width: 450px;
+	margin: 10px auto;
+	
+	display: grid;
+	grid-template-rows: 150px 150px;
+	grid-template-columns: 150px 150px 150px;
+	
+
+	grid-gap: 10px;
+}
+
+.containerOp {
+  background-color: #fff;
+  width: 700px;
+  margin: 30px auto;
+  
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Create 4 equal-width columns */
+  
+  grid-gap: 10px;
+}
+
+#endGoal {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+	font-weight: bold;
+  font-size: 50px;
+}
